@@ -1,0 +1,65 @@
+:root {
+  --primary-color: #766f68;
+  --second-color: #d2872c;
+}
+
+* {
+  border: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+  color: var(--primary-color);
+  font-family: "Robot", sans-serif;
+}
+
+nav {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  margin-left: 10%;
+}
+
+nav #title {
+  color: var(--second-color);
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+#menu-hamburguer span {
+  background-color: var(--primary-color);
+  display: block;
+  height: 3px;
+  margin-bottom: 3px;
+  width: 24px;
+}
+
+main {
+  padding: 0 3%;
+}
+
+main {
+  /* padding: 0 3%; */
+  text-align: center;
+  width: 100%;
+}
+
+main > img,
+button,
+h1,
+p {
+  margin-bottom: 24px;
+}
+
+img {
+  width: 90%;
+}
+
+button {
+  background-color: var(--second-color);
+  border-radius: 16px;
+  color: white;
+  font-size: 1.3rem;
+  font-weight: bold;
+  height: 58px;
+  width: 200px;
+}
