@@ -8,24 +8,34 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
 
+html,
+body {
   color: var(--primary-color);
   font-family: "Robot", sans-serif;
 }
 
-nav {
-  margin-top: 10%;
+header {
   margin-bottom: 10%;
+  margin-top: 10%;
   margin-left: 10%;
+  position: relative;
 }
 
-nav #title {
+header .title {
   color: var(--second-color);
   font-weight: bold;
   font-size: 1.5rem;
 }
 
-#menu-hamburguer span {
+header .menu-hamburguer {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+header .menu-hamburguer span {
   background-color: var(--primary-color);
   display: block;
   height: 3px;
